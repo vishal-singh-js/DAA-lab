@@ -27,7 +27,6 @@ vector<vector<int>>triplet(vector<int>num)
                     temp.push_back(k);
                     ans.push_back(temp);
                     temp.clear();
-                    j++;
                 }
             }
         }
